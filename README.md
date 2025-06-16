@@ -1,2 +1,2 @@
-# Studyzen.com
-Studyzen.com is our Final year E-learning Group project.
+# Studyzen
+Studyzen is our Final year E-learning Group project.
