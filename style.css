@@ -46,7 +46,7 @@ nav ul li {
 }
 nav ul li a {
 	padding: 2px 10px;
-	color: #843232;
+	color: white;
 	cursor: pointer;
 	transition: .5s;
 	text-decoration: none;
@@ -59,7 +59,7 @@ nav ul li a:hover {
 .active {
 	color: #fff;
 	border-radius: 5px;
-	background: #ef0202;
+	background: green;
 }
 .srch {
 	padding: 2px 10px;
@@ -610,85 +610,7 @@ form textarea {
 	cursor: pointer;
 }
 
-/*REVIEW SECTION*/
-#makeitfull {
-	display: flex;
-	justify-content: center;
-	transform: translateY(35px);
-}
-#makeitfull img {
-	width: 50px;
-}
-.review {
-	background:#0fd385;
-	width: 100%;
-}
-.rev-container {
-	padding: 10px 10%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-.rev-container .rev-card {
-	/*overflow: hidden;*/
-	width: 550px;
-	height: 240px;
-	margin-bottom: 40px;
-	background: #c0a1a1;
-	display: flex;
-	padding: 10px;
-	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
-}
-.rev-card:hover {
-	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
-}
-.identity {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 10px;
-}
-.identity img {
-	width: 120px;
-	height: 120px;
-	transition-duration: .8s;
-	border-radius: 50%;
-}
-.identity img:hover {
-	transform: scale(2.2);
-	border-radius: 0px;
-	box-shadow: 0 0 20px rgba(0,0,0,0.3);
-}
-.identity p {
-	width: 150px;
-	font-weight: bold;
-	color: #070707;
-	text-align: center;
-}
-.identity h6 {
-	width: 150px;
-	text-align: center;
-}
-.identity .rating img {
-	width: 12px;
-	height: 12px;
-	margin-right: 5px;
-}
-.rev-cont {
-	overflow: hidden;
-}
-.rev-cont #title {
-	padding: 10px;
-	color: #0a0a0a;
-	font-weight: bold;
-}
-.rev-cont #content {
-	padding: 10px;
-	font-size: .9em;
-	color: #050505;
-	line-height: 22px;
-	text-align: justify;
-}
+
 
 
 /*FEEDBACK*/
